@@ -1,0 +1,10 @@
+.hero { display: flex; justify-content: center; align-items: center; flex-direction: column;}
+
+.hero h1 { font-size: 50px; color: rgb(42, 42, 42);}
+
+.hero .buttons { display: flex; gap: 30px}
+
+.hero .buttons button{ margin: 20px; border: none ;padding: 15px 10px; border-radius: 10px; width: 200px; text-align: center; background-color: #E8D3FF; color: #671CAC; font-weight: 500; transition: all 0.3s ease;}
+
+.hero .buttons button:hover{ transform: scale(1.1); cursor: pointer;}
+

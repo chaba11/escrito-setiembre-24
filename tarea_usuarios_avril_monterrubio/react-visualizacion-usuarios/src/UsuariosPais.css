@@ -1,0 +1,16 @@
+.Usuario-pais-contenedor{
+    text-align: center;
+  }
+  
+.Usuario-card {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+  
+.Usuario-card img {
+    border-radius: 50%;
+    width: 100px;
+  }

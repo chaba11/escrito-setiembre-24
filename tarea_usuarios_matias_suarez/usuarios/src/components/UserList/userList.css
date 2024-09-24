@@ -1,0 +1,13 @@
+.user-container { display: flex; flex-direction: column; align-items: center; padding: 20px; }
+  
+.user-container .user-title { font-size: 24px; margin-bottom: 20px; }
+
+.user-container .users { display: flex; gap: 70px;}
+  
+.user-container .users .user-card { border: 1px solid #ececec; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 400px; }
+.user-container .users .user-card .user-image { border-radius: 50%; margin-bottom: 15px; }
+.user-container .users .user-card .user-name, .user-container .user-card .user-email, .user-container .user-card .user-country { margin: 10px 0; }
+.user-container .users .user-card .user-name { font-weight: bold; }
+.user-container .users .user-card .user-email { color: #555; }
+.user-container .users .user-card .user-country { font-style: italic; }
+  

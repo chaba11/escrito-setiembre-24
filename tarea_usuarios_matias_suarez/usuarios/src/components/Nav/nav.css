@@ -1,0 +1,4 @@
+nav { margin: 20px; display: flex; justify-content: center;}
+
+nav a { margin: 10px; text-decoration: none; color: #671CAC; transition: all 0.3s ease;}
+nav a:hover { color: #BD80FF; font-weight: 500;}
